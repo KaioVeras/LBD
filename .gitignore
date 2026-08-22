@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Artefatos de compilacao
+*.o
+*.exe
+*.out
+
+# Binarios compilados sem extensao
+main
+HelloWorld
+ex001
+ex002
+ex003
+ex004
+ex005
+atividadeStructs3
+
+# SQL gerado localmente
+*.sql.bak
