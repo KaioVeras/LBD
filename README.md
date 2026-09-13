@@ -1,52 +1,84 @@
-# LBD
+# Laboratório de Banco de Dados
 
-[![Linguagem principal](https://img.shields.io/badge/Linguagem-SQL%20%2F%20MySQL-blue.svg)](https://dev.mysql.com/doc/)
-[![Uso educacional](https://img.shields.io/badge/Contexto-Disciplina%20%2F%20Estudos-brightgreen.svg)](#aulas)
-[![Última atualização](https://img.shields.io/badge/Atualizado-12%2F08%2F2026-orange.svg)](#atualiza%C3%A7%C3%A3o)
+[![Banco de dados](https://img.shields.io/badge/SGBD-MySQL-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Linguagem](https://img.shields.io/badge/Linguagem-SQL-1f6feb)](https://dev.mysql.com/doc/)
+[![Status](https://img.shields.io/badge/Status-em%20desenvolvimento-F4A261)](#organização-do-repositório)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-2EA44F)](LICENSE)
 
-> Laboratório de Banco de Dados - conteúdo em SQL organizado por aulas, com foco em modelagem relacional, criação de tabelas e relacionamentos entre entidades.
+Repositório da disciplina de **Laboratório de Banco de Dados (LBD)**. Ele centraliza materiais de aula, exercícios, scripts em SQL e os trabalhos desenvolvidos ao longo do semestre, mantendo o conteúdo organizado para consulta, execução e revisão.
 
-Repositório público da disciplina de Laboratório de Banco de Dados, com scripts práticos, exercícios e implementações pensados para consulta rápida, revisão antes das aulas e evolução contínua ao longo do semestre.
+## Navegação
 
-**O que você encontra aqui:** scripts incrementais em SQL (MySQL), organizados do básico ao mais estruturado, com cada aula servindo como ponto de entrada para os scripts relacionados.
-
-## Acesso Rápido
-
-- [Visão geral](#lbd)
+- [Visão geral](#visão-geral)
+- [Organização do repositório](#organização-do-repositório)
 - [Aulas](#aulas)
-- [Trabalhos práticos](#trabalhos-práticos)
-- [Como executar](#como-executar)
-- [Atualização](#atualização)
-- [Autor](#autor)
+- [Trabalhos](#trabalhos)
+- [Como executar scripts SQL](#como-executar-scripts-sql)
+
+## Visão geral
+
+O conteúdo deste repositório acompanha o aprendizado prático de modelagem e implementação de bancos de dados relacionais. Os materiais podem incluir:
+
+- modelagem conceitual, lógica e física;
+- diagramas entidade-relacionamento (DER);
+- criação e alteração de tabelas;
+- chaves primárias, estrangeiras e compostas;
+- normalização e restrições de integridade;
+- população de banco de dados;
+- consultas e manipulação de dados em MySQL.
+
+> Os materiais são adicionados progressivamente. Cada pasta deve conter arquivos suficientes para que seu conteúdo possa ser entendido e executado de forma independente.
+
+## Organização do repositório
+
+```text
+LBD/
+├── Aulas/             # Materiais, exemplos e exercícios organizados por aula
+├── Trabalhos/         # Projetos práticos da disciplina
+├── README.md          # Guia de navegação do repositório
+└── LICENSE            # Licença MIT
+```
+
+| Área | Conteúdo esperado |
+| --- | --- |
+| [`Aulas/`](Aulas/) | Scripts, anotações, exercícios e materiais usados nas aulas. |
+| [`Trabalhos/`](Trabalhos/) | Documentação, diagramas e scripts dos projetos em grupo. |
 
 ## Aulas
 
-| Aula | Tema | Data |
+| Aula | Data | Resumo |
 | --- | --- | --- |
-| [Aula 01](Aulas/aula001) | Criação de banco de dados e tabelas (`CREATE DATABASE`, `CREATE TABLE`), chaves primárias e estrangeiras, relacionamento 1:N entre cliente–telefone e usuário–login. | 2026-08-12 |
+| — | — | Os materiais de aula serão adicionados conforme forem disponibilizados. |
 
-## Trabalhos práticos
+> Ao adicionar uma aula, inclua nesta tabela o link para sua pasta, a data e uma breve descrição dos conceitos ou exercícios abordados.
 
-| Trabalho | Descrição | Conceitos Utilizados |
-| --- | --- | --- |
-| — | Os trabalhos serão adicionados ao longo do semestre. | — |
+## Trabalhos
 
-## Como Executar
+| Trabalho | Data | Grupo | Status | Resumo |
+| --- | --- | --- | --- | --- |
+| - | - | - | - | Os trabalhos serão adicionados conforme forem disponibilizados. |
 
-Os scripts podem ser executados no MySQL Workbench ou direto no terminal:
+O Trabalho N1 está sendo estruturado progressivamente: primeiro o DER conceitual, depois os modelos lógico e físico, os scripts MySQL e, por fim, o documento em PDF. Consulte o [README do PetCare](Trabalhos/Trabalho%20N1%20-%20PetCare/README.md) para acompanhar as entregas.
+
+## Como executar scripts SQL
+
+Os scripts deste repositório são destinados ao **MySQL**. Antes de executar um arquivo, leia seus comentários iniciais e confira se ele cria ou utiliza um banco de dados já existente.
+
+No terminal, um arquivo `.sql` pode ser executado assim:
 
 ```bash
-mysql -u root -p < "Aulas/aula001/SQL Script - AULA 001.sql"
+mysql -u seu_usuario -p < caminho/para/arquivo.sql
 ```
 
-Ou, dentro do cliente MySQL, basta abrir o arquivo `.sql` desejado e executar o script completo.
+No MySQL Workbench:
 
-Observação: os scripts criam os bancos `db_aula` e `db_usuarios`. Se já existirem no seu ambiente, remova-os antes ou ajuste os nomes para evitar conflitos.
+1. Abra o arquivo `.sql` desejado.
+2. Revise o banco selecionado pelo script.
+3. Execute o conteúdo completo ou os trechos necessários.
+4. Verifique os resultados com consultas `SELECT`.
 
-## Atualização
+> Use um banco local de testes. Scripts que recriam tabelas ou bancos podem substituir estruturas existentes.
 
-Última atualização: 12/08/2026
+## Licença
 
-## Autor
-
-Kaio Vítor Pinheiro Veras
+Este projeto está sob a licença [MIT](LICENSE).
