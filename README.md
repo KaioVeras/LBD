@@ -33,10 +33,11 @@ O conteúdo deste repositório acompanha o aprendizado prático de modelagem e i
 
 ```text
 LBD/
-├── Aulas/             # Materiais, exemplos e exercícios organizados por aula
-├── Trabalhos/         # Projetos práticos da disciplina
-├── README.md          # Guia de navegação do repositório
-└── LICENSE            # Licença MIT
+├── Aulas/                    # Materiais, exemplos e exercícios organizados por aula
+├── Trabalhos/
+│   └── N1-Fila-Ja/           # Trabalho N1: Fila Já
+├── README.md                 # Guia de navegação do repositório
+└── LICENSE                   # Licença MIT
 ```
 
 | Área | Conteúdo esperado |
@@ -48,7 +49,10 @@ LBD/
 
 | Aula | Data | Resumo |
 | --- | --- | --- |
-| — | — | Os materiais de aula serão adicionados conforme forem disponibilizados. |
+| [Aula 01](Aulas/aula20260821.sql) | 21/08/2026 | Criação do banco `Livraria`, tabelas, chaves primárias e estrangeiras, restrições de integridade e operações básicas de inserção, consulta, atualização e exclusão. |
+| [Aula 02](Aulas/aula20260828.sql) | 28/08/2026 | Consultas com filtros, operadores lógicos, `LIKE`, `IN`, `BETWEEN`, subconsultas, ordenação e limite de resultados. |
+| [Aula 03](Aulas/aula20260904.sql) | 04/09/2026 | Consultas com `JOIN`, identificação de registros sem relacionamento e cálculo de idade com datas. |
+| [Aula 04](Aulas/aula20260911.sql) | 11/09/2026 | Funções de agregação, agrupamento com `GROUP BY`, filtros com `HAVING` e ordenação de resultados agregados. |
 
 > Ao adicionar uma aula, inclua nesta tabela o link para sua pasta, a data e uma breve descrição dos conceitos ou exercícios abordados.
 
@@ -56,9 +60,9 @@ LBD/
 
 | Trabalho | Data | Grupo | Status | Resumo |
 | --- | --- | --- | --- | --- |
-| - | - | - | - | Os trabalhos serão adicionados conforme forem disponibilizados. |
+| [N1 - Fila Já](Trabalhos/N1-Fila-Ja/) | 20/09/2026 | Kaio Vítor Pinheiro Veras e grupo | Em revisão | Modelagem e implementação MySQL de um sistema de gestão de filas e atendimentos em UBS. |
 
-O Trabalho N1 está sendo estruturado progressivamente: primeiro o DER conceitual, depois os modelos lógico e físico, os scripts MySQL e, por fim, o documento em PDF. Consulte o [README do PetCare](Trabalhos/Trabalho%20N1%20-%20PetCare/README.md) para acompanhar as entregas.
+O trabalho reúne a proposta, os modelos editáveis do brModelo, o script de criação e população do banco, consultas, atualizações e uma análise de conformidade com o enunciado.
 
 ## Como executar scripts SQL
 
