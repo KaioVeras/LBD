@@ -1,6 +1,6 @@
 # Visão relacional do banco
 
-Este diagrama foi derivado do arquivo [`fila-ja.sql`](../sql/fila-ja.sql) para permitir a leitura da estrutura diretamente no GitHub. Ele complementa, mas não substitui, os modelos conceitual, lógico e físico produzidos no brModelo.
+Este diagrama foi derivado do arquivo [`fila-ja.sql`](../sql/fila-ja.sql) para permitir a leitura da estrutura diretamente no GitHub. Ele é apenas um complemento, não serve para substituir os modelos conceitual e lógico.
 
 ```mermaid
 erDiagram
