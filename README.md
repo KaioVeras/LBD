@@ -27,8 +27,6 @@ O conteúdo deste repositório acompanha o aprendizado prático de modelagem e i
 - população de banco de dados;
 - consultas e manipulação de dados em MySQL.
 
-> Os materiais são adicionados progressivamente. Cada pasta deve conter arquivos suficientes para que seu conteúdo possa ser entendido e executado de forma independente.
-
 ## Organização do repositório
 
 ```text
@@ -54,8 +52,6 @@ LBD/
 | [Aula 03](Aulas/aula20260904.sql) | 04/09/2026 | Consultas com `JOIN`, identificação de registros sem relacionamento e cálculo de idade com datas. |
 | [Aula 04](Aulas/aula20260911.sql) | 11/09/2026 | Funções de agregação, agrupamento com `GROUP BY`, filtros com `HAVING` e ordenação de resultados agregados. |
 
-> Ao adicionar uma aula, inclua nesta tabela o link para sua pasta, a data e uma breve descrição dos conceitos ou exercícios abordados.
-
 ## Trabalhos
 
 | Trabalho | Data | Grupo | Status | Resumo |
@@ -80,8 +76,6 @@ No MySQL Workbench:
 2. Revise o banco selecionado pelo script.
 3. Execute o conteúdo completo ou os trechos necessários.
 4. Verifique os resultados com consultas `SELECT`.
-
-> Use um banco local de testes. Scripts que recriam tabelas ou bancos podem substituir estruturas existentes.
 
 ## Licença
 
