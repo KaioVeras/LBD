@@ -8,7 +8,7 @@ Trabalho N1 da disciplina de Laboratório de Banco de Dados.
 
 | Artefato | Descrição |
 | --- | --- |
-| [Documentação final](documentacao/fila-ja-documentacao-final.pdf) | Relatório com contexto, regras de negócio, modelos conceitual e lógico, implementação e conclusão. |
+| [Documentação](documentacao/fila-ja-documentacao-final.pdf) | Relatório com contexto, regras de negócio, modelos conceitual e lógico, implementação e conclusão. |
 | [Script SQL](sql/fila-ja.sql) | Implementação física para MySQL 8.0+: criação do banco, 16 tabelas, dados de demonstração, 8 consultas e 3 atualizações. |
 | [Modelo conceitual](modelos/fila-ja-modelo-conceitual.brM) | Arquivo-fonte do brModelo fornecido pelo grupo. |
 | [Modelo lógico](modelos/fila-ja-modelo-logico-fisico.brM) | Arquivo-fonte do brModelo fornecido pelo grupo. |

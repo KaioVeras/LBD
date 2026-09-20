@@ -60,7 +60,7 @@ LBD/
 
 | Trabalho | Data | Grupo | Status | Resumo |
 | --- | --- | --- | --- | --- |
-| [N1 - Fila Já](Trabalhos/N1-Fila-Ja/) | 20/09/2026 | Kaio Vítor Pinheiro Veras e grupo | Em revisão | Modelagem e implementação MySQL de um sistema de gestão de filas e atendimentos em UBS. |
+| [N1 - Fila Já](Trabalhos/N1-Fila-Ja/) | 20/09/2026 | Kaio, Tiago, Pedro, Ronald | Em revisão | Modelagem e implementação MySQL de um sistema de gestão de filas e atendimentos em UBS. |
 
 O trabalho reúne a proposta, os modelos editáveis do brModelo, o script de criação e população do banco, consultas, atualizações e uma análise de conformidade com o enunciado.
 
