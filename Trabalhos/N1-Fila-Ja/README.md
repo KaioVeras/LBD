@@ -12,7 +12,7 @@ Trabalho N1 da disciplina de Laboratório de Banco de Dados.
 | [Script SQL](sql/fila-ja.sql) | Implementação física para MySQL 8.0+: criação do banco, 16 tabelas, dados de demonstração, 8 consultas e 3 atualizações. |
 | [Modelo conceitual](modelos/fila-ja-modelo-conceitual.brM) | Arquivo-fonte do brModelo. |
 | [Modelo lógico](modelos/fila-ja-modelo-logico-fisico.brM) | Arquivo-fonte do brModelo. |
-| [Visão relacional](documentacao/modelo-relacional.md) | Diagrama em Mermaid, visualizável diretamente no GitHub. |
+| [Visão relacional](documentacao/modelo-relacional.md) | Diagrama em Mermaid. |
 
 > Os arquivos .brM são fontes legadas do brModelo 2, criadas por um dos integrantes do grupo. Os diagramas também estão disponíveis como figuras na documentação final, e o modelo físico foi implementado no script SQL.
 
